@@ -17,3 +17,13 @@ The benchmark may still work if some of these requirements are missing, but the 
 
 - The tests are many and they are not exactly cheap. They may run for a long time.  However, they require little memory and they are single-threaded. It is best if you can somehow lock the process to a single core.
 - While in the `DivisionBenchmark` directory run the script `runme.sh` and collect the output (e.g.,  `runme.sh > mylogfile.txt`). The output could be quite large, so do not expect to be able to copy and paste it conveniently.
+
+It might be as easy as doing the following:
+
+```
+git clone https://github.com/lemire/DivisionBenchmark.git
+cd DivisionBenchmark
+./runme.sh > mylogfile.txt
+# send back mylogfile.txt
+```
+
