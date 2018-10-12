@@ -1,2 +1,0 @@
-rm -f *.s
-rm -f   dynhash_benchmark_justdivlkk dynhash_benchmark_libdivide dynhash_benchmark_libdivide_branchless dynhash_benchmark_lkk dynhash_benchmark_system
