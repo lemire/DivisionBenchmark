@@ -1,7 +1,7 @@
 #!/bin/bash
 TIMEFORMAT=%R
 PERFCMD="time" # could be perf stat
-CCSTRINGS=("cc -march=native  -O3" )
+CCSTRINGS=("cc  -O3" )
 
 for CCSTRING in "${CCSTRINGS[@]}" ; do
     echo "#" Machine `hostname`,  compiling with $CCSTRING

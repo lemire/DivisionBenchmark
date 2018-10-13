@@ -1,5 +1,5 @@
 #!/bin/bash
-CC_OPTS="-march=native -O3"  #default had include -mbmi2
+CC_OPTS="-O3"  #default had include -mbmi2
 PERFCMD="time"   # alternatives are time and perf stat
 REPS=1 
 CCSTRINGS=("cc $CC_OPTS")
