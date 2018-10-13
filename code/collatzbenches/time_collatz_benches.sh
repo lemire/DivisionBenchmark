@@ -1,10 +1,9 @@
 #!/bin/bash
 TIMEFORMAT=%R
 PERFCMD="time" # could be perf stat
-CCSTRINGS=("clang -march=native -O3" )
 SIGNED=$1
 CONSTANT=$2
-CCSTRINGS=("cc $CC_OPTS")
+CCSTRINGS=("cc -march=native  -O3" )
 
 
 #check SIGNED and CONSTANT for allowed values
