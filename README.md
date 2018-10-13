@@ -5,7 +5,7 @@ A not-so-exciting benchmark to measure the performance of some division function
 ## Requirements
 
 - A bash shell
-- A GCC-like C compiler callable with `cc`, it should support conventional flags like  `-march=native -O3`
+- A GCC-like C compiler callable with `cc`, it should support conventional flags like  `-O3`
 - The tool `make` to build C programs (nice to have but not strictly necessary)
 - A `time` command which reports how long a program runs (required)
 - An `objdump` tool that dumps the assembly corresponding to a compiled binary  (nice to have but not strictly necessary)
@@ -26,4 +26,3 @@ cd DivisionBenchmark
 ./runme.sh > mylogfile.txt
 # send back mylogfile.txt
 ```
-
