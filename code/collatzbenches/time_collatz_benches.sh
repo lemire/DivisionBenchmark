@@ -3,7 +3,8 @@ TIMEFORMAT=%R
 PERFCMD="time" # could be perf stat
 SIGNED=$1
 CONSTANT=$2
-CCSTRINGS=("cc -march=native  -O3" )
+CC_OPTS="-march=native -O3"  #default had include -mbmi2
+CCSTRINGS=("cc $CC_OPTS")
 
 
 #check SIGNED and CONSTANT for allowed values
