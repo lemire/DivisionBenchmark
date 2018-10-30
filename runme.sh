@@ -4,6 +4,7 @@ cd code
 
 echo "codesize"
 cd codesize
+make clean
 make
 cd .. 
 
